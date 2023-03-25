@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word to PDF Converter</title>
+  </head>
+  <body>
+    <h1>Word to PDF Converter</h1>
+    <form method="POST" enctype="multipart/form-data">
+      <input type="file" name="input_file" accept=".docx">
+      <input type="submit" value="Convert">
+    </form>
+  </body>
+</html>
